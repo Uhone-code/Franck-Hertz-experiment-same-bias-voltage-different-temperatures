@@ -64,8 +64,9 @@ else:
     print("Finished reading all files. Now displaying plot...")
     plt.xlabel("Accelerating Voltage (V)")
     plt.ylabel("Collector Current (mA)")
-    plt.title(f"Franck-Hertz: Collector Current vs Acc. Voltage at Bias 1V (Raw Data)")
+    plt.title(f"Franck-Hertz: Collector Current vs Acc. Voltage at Bias 1V")
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
+
     plt.show()
